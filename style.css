@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-fluid{
+    height: 200px;
+    max-width: 100%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+
+  .loader{
+      position: fixed;
+      z-index: 99;
+      /* top:0;
+      left: 0; */
+    
+      /* background: white; */
+      display: flex;
+      /* justify-content: center;
+      text-align: center; */
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+     margin-top: 300px;
+     margin-left: 550px;
+     animation: fadeOut 3s;
+      animation-fill-mode: forwards;
+     
+  }
+ 
+
+
+
+.content{
+    animation-name: example;
+    animation-duration: 3s;
+
+}
+
+@keyframes fadeOut {
+
+    100% { 
+        opacity: 1;
+    visibility: hidden;
+    transform: rotate(360deg);
+    
+   
+    }
+}
+  @keyframes example {
+ 
+    100% {opacity: 0;
+    visibility: hidden;}
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+  }
+
+
+  
